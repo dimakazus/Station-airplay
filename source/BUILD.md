@@ -1,6 +1,8 @@
 # Build
 
 Go >=1.23, Python >=3.8; Linux/WSL for tests. One universal YAM package.
+Build the checked-in supervisor with the `go.mod` toolchain (`GOTOOLCHAIN=go1.23.12`):
+Go 1.27 makes the packed binary ~440 KiB larger.
 
 ```sh
 cd source
